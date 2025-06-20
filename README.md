@@ -6,6 +6,7 @@ This is the source code for a very popular bot in a server Zack is admin in. I m
 # 🤑 Update 4: The FREE Update
 Lots of new stuff was added and fixed! Here are some of the most important changes:
 
+- switched to g4f because i dont want to pay for key lmao
 - nothing else lol
 
 # 🤖 Update 3.1: The Ai Update
