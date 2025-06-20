@@ -31,6 +31,9 @@ from storage.lists import random_ratelimit, random_justice, random_ai
 import google.api_core.exceptions
 import google.generativeai as genai
 from google.ai.generativelanguage_v1beta.types import content
+from g4f.client import Client
+
+client = Client()
 
 # import difflib
 
@@ -113,11 +116,10 @@ with open("storage/duck_prompt.txt", "r", encoding="utf-8") as duck:
 
 genai.configure(api_key=config.get("KEYS", "gemini"))
 
-model = genai.GenerativeModel(
-    model_name="gemini-1.5-flash",
-    generation_config=generation_config,
-    safety_settings=safety_settings,
-    system_instruction=text_prompt
+model = client.chat.completions.create(
+    model="gpt-4o-mini",
+    messages=[{"role": "user", "content": "Hello"}],
+    web_search=False
 )
 
 
