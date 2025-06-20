@@ -1,7 +1,12 @@
-# Duck Bot V3 🦆
-This is the source code for a very popular bot in a server im admin it. I released this for people to learn and be able to make their own cool bot.
+# Duck Bot V3 🦆 (Free No-Api-Key Edition)
+This is the source code for a very popular bot in a server Zack is admin in. I made this bot even worse by adding g4f to it :)
 
 *This is the third time I had to rewrite it due to crappy code lol.*
+
+# 🤑 Update 4: The FREE Update
+Lots of new stuff was added and fixed! Here are some of the most important changes:
+
+- nothing else lol
 
 # 🤖 Update 3.1: The Ai Update
 Lots of new stuff was added and fixed! Here are some of the most important changes:
